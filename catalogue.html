@@ -5,23 +5,33 @@ icon: fa-pencil-alt
 order: 2
 ---
 
-	<!-- Image -->
-  <p></p>
+	<!-- Table -->
+	<h2>Table</h2>
+	<div class="table-wrapper">
 
-  <div class="row">
-      <div class="4u 12u$(mobile)">
-          <a href="catalogue" class="image fit"><img src="{{ 'assets/images/pic03.jpg' | relative_url }}" alt="" /></a>
-              <p> A hand made fabric door stop. <br>
-              </p>
-      </div>
-      <div class="4u 12u$(mobile)">
-          <a href="catalogue" class="image fit"><img src="{{ 'assets/images/pic07.jpg' | relative_url }}" alt="" max-width=50%/></a>
-          <p> Crochet cat basket with fabric cushion.<br>
-          </p>
-      </div>
-      <div class="4u 12u$(mobile)">
-          <a href="catalogue" class="image fit"><img src="{{ 'assets/images/pic13.jpg' | relative_url }}" alt="" /></a>
-          <p> Crochet tea cosy and tea pot.<br>
-        </p>      
-        </div>
-  </div>
+		<table>
+			<thead>
+				<tr>
+					<th>Photo</th>
+					<th>Description</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="width: 100px;"><div class="2u 2u(mobile)"></div><a class="image fit"></a><img src="{{ 'assets/images/pic03.jpg' | relative_url }}" alt="" /></a></class></div></td>
+					<td>Hand crafted own door stop</td>
+					<td><s>N/A</s></td>
+				</tr>
+
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="2"></td>
+					<td> </td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</div>	
+	<hr />
