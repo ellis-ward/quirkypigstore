@@ -39,8 +39,8 @@ email: hello@quirkypig.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/homepage" # the subpath of your site, e.g. /blog
-url: "http://ellisward.com/quirkypigstore" # the base hostname & protocol for your site
+baseurl: "/quirkypigstore" # the subpath of your site, e.g. /blog
+url: "http://ellisward.com" # the base hostname & protocol for your site
 
 
 # Social settings
