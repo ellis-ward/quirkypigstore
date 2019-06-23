@@ -34,7 +34,7 @@ title: The Quirky Pig
 subtitle: Crafts // Vintage // Preloved
 description: >- # this means to ignore newlines until "baseurl:"
   The Quirky Pig online store.
-author:  
+author: Ellis Ward
 email: hello@quirkypig.com
 avatar: assets/images/avatar.jpg
 
@@ -59,7 +59,5 @@ dribbble_url:
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-plugins:
-  - jekyll-remote-theme
-  remote_theme: chrisbobbe/jekyll-theme-prologue
+remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
