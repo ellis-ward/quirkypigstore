@@ -4,7 +4,40 @@ title: Catalogue
 icon: fa-pencil-alt
 order: 2
 ---
+<ul class="icons">
+		{%- if site.twitter_url -%}
+		<li><a href="{{- site.twitter_url -}}" target="_blank" class="icon-b fa-twitter"><span class="label">Twitter</span></a></li>
+		{%- endif -%}
+		{%- if site.facebook_url -%}
+		<li><a href="{{- site.facebook_url -}}" target="_blank" class="icon-b fa-facebook-f"><span class="label">Facebook</span></a></li>
+		{%- endif -%}
+		{%- if site.googleplus_url -%}
+		<li><a href="{{- site.googleplus_url -}}" target="_blank" class="icon-b fa-google-plus-g"><span class="label">Google Plus</span></a></li>
+		{%- endif -%}
+		{%- if site.instagram_url -%}
+		<li><a href="{{- site.instagram_url -}}" target="_blank" class="icon-b fa-instagram"><span class="label">Instagram</span></a></li>
+		{%- endif -%}
+		{%- if site.linkedin_url -%}
+		<li><a href="{{- site.linkedin_url -}}" target="_blank" class="icon-b fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+		{%- endif -%}
+		{%- if site.github_url -%}
+		<li><a href="{{- site.github_url -}}" target="_blank" class="icon-b fa-github"><span class="label">GitHub</span></a></li>
+		{%- endif -%}
+		{%- if site.pinterest_url -%}
+		<li><a href="{{- site.pinterest_url -}}" target="_blank" class="icon-b fa-pinterest"><span class="label">Pinterest</span></a></li>
+		{%- endif -%}
+		{%- if site.slack_url -%}
+		<li><a href="{{- site.slack_url -}}" target="_blank" class="icon-b fa-slack-hash"><span class="label">Slack</span></a></li>
+		{%- endif -%}
+		{%- if site.dribbble_url -%}
+		<li><a href="{{- site.dribbble_url -}}" target="_blank" class="icon-b fa-dribbble"><span class="label">Dribbble</span></a></li>
+		{%- endif -%}
+		{%- if site.email -%}
+		<li><a href="mailto:{{- site.email -}}" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a></li>
+		{%- endif -%}
+	  </ul>
 
+<p> </p>
 	<!-- Table -->
 	<div class="table-wrapper">
 
@@ -14,38 +47,47 @@ order: 2
 					<th>Photo</th>
 					<th>Description</th>
 					<th>Price</th>
+					<th>Purchase</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td style="width: 300px;"><a class="image fit"><img src="{{ 'assets/images/pic03.jpg' | relative_url }}" alt="" style="height:100%;width:100%"/></a></class></div></td>
-					<td style="vertical-align:top">Hand crafted owl door stop</td>
+					<td style="vertical-align:top">Crafted fabric owl door stop<br>
+					<a href="https://www.instagram.com/p/By4VSy2gTaX/" target="_blank" class="icon-b fa-instagram"><span class="label">Instagram</span></a> / <a href="https://www.facebook.com/thequirkypig/photos/a.305176777094204/305817903696758/?type=3&eid=ARDCSnrJvxl5aTzKGe24ZaxWrxLwnqrp1ycWJUphCVuuhi_w0MTKVK3W-RSfgxDL8mYCKZSCTAQWC331&__xts__%5B0%5D=68.ARAW3VxYWMuLryd97fE5MGynqf58T1sz01g0nFDtrdGiks4pexFBz7zy1mS0w63N5EwahiCARC48pC-9_8-N2IwXGCCrMgNFGKxqBeSl4AEj7vsPAdkKl6RHL_HoxaqKtYMRpxWyKU-R8fh9qR-yGwgyLtE2AioOwehUTOXPxH_DZrbvnr6QFPWWrSbfYNPwk8S6DCNhsil41r4zR2avWM8DNgSsCqIr68s4czpq6coOszyGT51bhbLhaRnWOkN83NdiiEWKdxDJQo8f1fG7O2ZOSS8sP-9u2b5DYHEB-oousgtD3B6IQyQVSWDOMppSlDxWCaWUkUtPC-LMYH0OGhE&__tn__=EEHH-R" target="_blank" class="icon-b fa-facebook-f"><span class="label">Facebook</span></a> / <a href="https://www.pinterest.co.uk/pin/671388256930723301" target="_blank" class="icon-b fa-pinterest"><span class="label">Pinterest</span></a>
+					</td>
 					<td style="vertical-align:top"><s>N/A</s></td>
+					<td style="vertical-align:top">Coming Soon</td>
 				</tr>
 				<tr>
 						<td style="width: 300px;"><a class="image fit"><img src="{{ 'assets/images/pic02.jpg' | relative_url }}" alt="" style="height:100%;width:100%"/></a></class></div></td>
-						<td style="vertical-align:top"> </td>
+						<td style="vertical-align:top">Crafted cushion</td>
 						<td style="vertical-align:top"><s>N/A</s></td>
+						<td style="vertical-align:top">Coming Soon</td>
 				</tr>
 				<tr>
 						<td style="width: 300px;"><a class="image fit"><img src="{{ 'assets/images/pic05.jpg' | relative_url }}" alt="" style="height:100%;width:100%"/></a></class></div></td>
-						<td style="vertical-align:top"> </td>
+						<td style="vertical-align:top">Upcycled teacup and saucer bird feeder</td>
 						<td style="vertical-align:top"><s>N/A</s></td>
+						<td style="vertical-align:top">Coming Soon</td>
 				</tr>
 				<tr>
 						<td style="width: 300px;"><a class="image fit"><img src="{{ 'assets/images/pic06.jpg' | relative_url }}" alt="" style="height:100%;width:100%"/></a></class></div></td>
-						<td style="vertical-align:top"> </td>
+						<td style="vertical-align:top">Crafted cushion</td>
 						<td style="vertical-align:top"><s>N/A</s></td>
+						<td style="vertical-align:top">Coming Soon</td>
 				</tr>
 				<tr>
 						<td style="width: 300px;"><a class="image fit"><img src="{{ 'assets/images/pic07.jpg' | relative_url }}" alt="" style="height:100%;width:100%"/></a></class></div></td>
-						<td style="vertical-align:top"> </td>
+						<td style="vertical-align:top">Crochet cat basket and fabric cushion</td>
 						<td style="vertical-align:top"><s>N/A</s></td>
+						<td style="vertical-align:top">Coming Soon</td>
 				</tr>
 				<tr>
 						<td style="width: 300px;"><a class="image fit"><img src="{{ 'assets/images/pic13.jpg' | relative_url }}" alt="" style="height:100%;width:100%"/></a></class></div></td>
-						<td style="vertical-align:top"> </td>
+						<td style="vertical-align:top">Crochet tea cosy</td>
 						<td style="vertical-align:top"><s>N/A</s></td>
+						<td style="vertical-align:top">Coming Soon</td>
 				</tr>
 
 
