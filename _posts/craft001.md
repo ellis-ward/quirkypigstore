@@ -1,6 +1,5 @@
 ---
-title:
-author: 
+title: craft001 
 layout: post
 ---
 
