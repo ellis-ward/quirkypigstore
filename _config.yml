@@ -31,12 +31,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Quirky Pig 
-subtitle: Crafts // Vintage // Preloved
+subtitle: Crafts // Vintage // Upcycled
 description: >- # this means to ignore newlines until "baseurl:"
   The Quirky Pig online store.
 author: Ellis Ward
 email: hello@quirkypig.com
-avatar: assets/images/avatar.jpg
+avatar: assets/images/website/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "/quirkypigstore" # the subpath of your site, e.g. /blog
