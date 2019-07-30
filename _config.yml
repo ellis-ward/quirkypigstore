@@ -57,6 +57,12 @@ dribbble_url:
 
 # Google Analytics Tracking ID goes here:
 gtag: "UA-143154337-1"
+ 
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: "UA-143154337-1"
+ 
+# Google Tag Manager ID
+#gtm: ""
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: chrisbobbe/jekyll-theme-prologue
